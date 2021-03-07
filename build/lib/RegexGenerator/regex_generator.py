@@ -60,6 +60,3 @@ class RegexGenerator():
 			return "WHITESPACE"
 		else:
 			return "SPECIAL"
-
-
-myRegexGenerator = RegexGenerator("1Q23A A:;123aa123")
