@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: regex-generator-lib
-Version: 0.0.4
+Version: 0.1.3
 Summary: A Python library for programmatically generating Regex.
 Home-page: https://github.com/dbuhlbrown/Regex-Generator
 Author: Donald Buhl-Brown
@@ -9,6 +9,19 @@ License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/dbuhlbrown/Regex-Generator/issues
 Description: # Regex-Generator
         This project was created as an experiment to see how accurately I can generate valid regex when simply given a string(s) to match. 
+        
+        How to use
+        
+        Basic Example:
+        
+        from RegexGenerator import RegexGenerator
+        
+        myRegexGenerator = RegexGenerator("123-555-7676")
+        
+        print(myRegexGenerator).get_regex()
+        
+        Expected Output:
+        
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

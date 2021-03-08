@@ -4,7 +4,6 @@ import re
 class RegexGenerator():
 
 	def __init__(self,string_pattern_to_detect):
-		print("inside regexGenerator")
 		self.string_pattern_to_detect = string_pattern_to_detect
 		self.regex_string = ""
 		self.create_regex( )
@@ -40,12 +39,11 @@ class RegexGenerator():
 				current_type = self.determine_char_type(char)
 				last_index_of_type = 0
 
-				print(self.regex_string)
-
-			
+	def get_regex(self):
+		return self.regex_string
 		
 
-
+	#not yet implemented
 	def check_if_valid(self):
 
 		print("returns true if the regex is correct.")

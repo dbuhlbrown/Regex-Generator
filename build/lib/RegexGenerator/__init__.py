@@ -1,1 +1,1 @@
-from regexgeneratorlib.regex_generator import RegexGenerator
+from RegexGenerator.regex_generator import RegexGenerator
