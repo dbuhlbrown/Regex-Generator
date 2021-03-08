@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: regex-generator-lib
-Version: 0.1.3
+Version: 1.0.0
 Summary: A Python library for programmatically generating Regex.
 Home-page: https://github.com/dbuhlbrown/Regex-Generator
 Author: Donald Buhl-Brown
@@ -10,9 +10,9 @@ Project-URL: Bug Tracker, https://github.com/dbuhlbrown/Regex-Generator/issues
 Description: # Regex-Generator
         This project was created as an experiment to see how accurately I can generate valid regex when simply given a string(s) to match. 
         
-        How to use
+        #How to use
         
-        Basic Example:
+        #Basic Example:
         
         from RegexGenerator import RegexGenerator
         
@@ -20,9 +20,9 @@ Description: # Regex-Generator
         
         print(myRegexGenerator).get_regex()
         
-        Expected Output:
+        #Expected Output:
         
-        
+        \d{3}[-]\d{3}[-]\d{4}
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
